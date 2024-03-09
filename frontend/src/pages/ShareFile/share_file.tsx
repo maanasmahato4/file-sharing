@@ -15,7 +15,7 @@ function ShareFile(): React.ReactElement {
 			formData.append('file', uploadedFile);
 			try {
 				const response = await HttpRequest.post(
-					'file-sharing-vmbp.vercel.app/api/v1/file',
+					'https://file-sharing-git-main-maanas-mahatos-projects.vercel.app/api/v1/file',
 					formData,
 				);
 				const responseData = await response.json();
