@@ -12,7 +12,7 @@ const PORT = process.env.PORT as string;
 const app = express();
 app.use(
 	cors({
-		origin: ['*'],
+		origin: '*',
 		allowedHeaders: '*',
 		exposedHeaders: ['X-Custom-Name']
 	})
