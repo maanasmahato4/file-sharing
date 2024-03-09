@@ -1,0 +1,41 @@
+.url-form {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    width: 80vw;
+}
+
+.url-input {
+	padding: 1em;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: none;
+    outline: none;
+}
+
+.df-button {
+    width: 100%;
+    background-color: blue;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	padding: 1em;
+	margin: 0 auto;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-duration: 0.3s;
+	transition-property: transform;
+}
+
+.df-button:hover {
+	cursor: pointer;
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.df-button:disabled {
+    cursor: not-allowed;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+    background-color: rgba(128, 128, 128, 0.36);
+    color: white;
+}

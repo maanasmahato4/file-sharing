@@ -1,0 +1,25 @@
+.link-box {
+	background-color: white;
+	display: grid;
+	width: 80vw;
+	grid-template-columns: 85% 15%;
+	border: 2px solid white;
+	border-radius: 4px;
+	padding: 0.8em;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	text-align: start;
+	align-items: center;
+}
+
+.link-box > p {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 640px) {
+	.link-box {
+		width: 50vw;
+	}
+}

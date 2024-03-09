@@ -1,0 +1,10 @@
+{
+	"preset": "ts-jest",
+	"test-environment": "node",
+	"transform": {
+		"^.+\\.tsx?$": [
+			"ts-jest",
+			{ "tsconfig": "tsconfig.json", "diagnostics": false }
+		]
+	}
+}
