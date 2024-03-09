@@ -7,7 +7,7 @@
 	"scripts": {
 		"test": "jest --coverage",
 		"dev": "nodemon",
-		"start": "node dist/app.js",
+		"start": "node dist/src/app.js",
 		"lint": "eslint ./src && tsc",
 		"prettify": "prettier --write ./src",
 		"build": "npx swc ./src -d ./dist"
