@@ -17,7 +17,7 @@ function DownloadFile(): React.ReactElement {
 		setError(null);
 		try {
 			const response = await HttpRequest.downloadFile(
-				'file-sharing-vmbp.vercel.app/api/v1/download',
+				'https://file-sharing-1k8m.onrender.com/api/v1/download',
 				downloadUrl,
 			);
 			const fileName = response.headers['x-custom-name'];
