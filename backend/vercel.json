@@ -15,10 +15,5 @@
 			"src": "/(.*)",
 			"dest": "/"
 		}
-	],
-	"functions": {
-		"api/.*": {
-			"runtime": "nodejs@14"
-		}
-	}
+	]
 }
