@@ -31,7 +31,10 @@ function ShareFile(): React.ReactElement {
 	return (
 		<div className='upload-screen'>
 			<DragAndDrop setUploadedFile={setUploadedFile} />
-			<Button onClickHandler={handleSubmit} />
+			<div>
+				<Button onClickHandler={handleSubmit} />
+			</div>
+
 			<LinkBox hide={link ? false : true} link={link} />
 		</div>
 	);

@@ -27,3 +27,13 @@
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
+
+
+@media screen and (max-width: 640px) {
+	.navbar {
+		justify-content: space-evenly;
+	}
+	.link:nth-child(2) {
+		margin-right: 0;
+	}
+}

@@ -39,3 +39,9 @@
     background-color: rgba(128, 128, 128, 0.36);
     color: white;
 }
+
+@media screen and (max-width: 640px) {
+	.url-form {
+		grid-template-columns: 70% 30%;
+	}
+}
